@@ -5,7 +5,7 @@
  */
 
 // ---------- LED 引脚与 PWM 配置 ----------
-#define LED_PIN        43                     // Wifiduino32S3 D1 (TXD0) = GPIO43
+#define LED_PIN        21                     // Wifiduino32S3 D8 = GPIO21
 #define LEDC_CHANNEL   0                      // LEDC 通道 0
 #define LEDC_BITS      10                     // 10 位分辨率，duty 0~1023
 #define LEDC_DUTY_HALF ((1 << LEDC_BITS) / 2) // 50% 占空比 = 512
